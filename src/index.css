@@ -1,0 +1,18 @@
+.texto {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.principal {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid rgb(37, 134, 179);
+    background: linear-gradient(black, rgb(4, 133, 238));
+}
+
+body {
+    text-align: center;
+    
+}

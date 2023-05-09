@@ -1,0 +1,28 @@
+.CardInicial{
+  align-items: center;
+  width: 100%;
+}
+
+.Card {
+  background-color: brown;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid red;
+  margin: 10px;
+  max-width: 300px;
+  min-height: 300px;
+  
+}
+
+.Card .Title {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.Card .Content {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    align-items: center;
+}
