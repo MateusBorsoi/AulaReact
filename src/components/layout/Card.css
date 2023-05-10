@@ -1,6 +1,7 @@
 .CardInicial{
   align-items: center;
   width: 100%;
+  
 }
 
 .Card {
@@ -11,6 +12,7 @@
   margin: 10px;
   max-width: 300px;
   min-height: 300px;
+  
   
 }
 

@@ -1,0 +1,8 @@
+.Contador button {
+    margin: 10px;
+}
+
+.Contador .input {
+    width: 70px;
+    border-radius: 10px;
+}

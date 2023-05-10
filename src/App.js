@@ -10,6 +10,10 @@ import ListaAlunos from "./components/basicos/Repetição/ListaAlunos";
 import ListaProdutos from "./components/basicos/Repetição/ListaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import LabelText from "./input/LabelText";
+import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
+import Sorteador from "./components/contador/Megasena/Sorteador";
 
 export default function App() {
   return (
@@ -40,7 +44,19 @@ export default function App() {
         <Card titulo="Par ou Ímpar" color="#F5B041">
           <ParOuImpar numero={15} />
           <UsuarioInfo usuario={{ nome: "Mateus" }} />
-       , </Card>
+        </Card>
+        <Card titulo="Input Text" color="#41C1BF">
+          <LabelText />
+        </Card>
+        <Card titulo="Formulário" color="#A04000">
+          <Input />
+        </Card>
+        <Card titulo="Contador" color="#5B2C6F">
+          <Contador numeroInicial={10} passoInicial={2} />
+        </Card>
+        <Card titulo="Sorteador" color="#3498DB">
+          <Sorteador />
+        </Card>
       </div>
     </div>
   );

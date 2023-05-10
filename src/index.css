@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 .texto {
     background-color: black;
     color: white;
@@ -8,11 +10,16 @@
 .principal {
     color: rgb(0, 0, 0);
     text-align: center;
-    border: 2px solid rgb(37, 134, 179);
+    border:none;
     background: linear-gradient(black, rgb(4, 133, 238));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
 }
 
 body {
     text-align: center;
-    
+    font-family: 'Oswald', sans-serif;
 }
+

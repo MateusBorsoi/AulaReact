@@ -1,0 +1,13 @@
+.content{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.sorteio{
+    background-color: #D9E1E6;
+    border: 1px solid black;
+    border-radius:1em;
+    width: 215px;
+
+}
