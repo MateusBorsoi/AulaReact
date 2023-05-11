@@ -1,8 +1,3 @@
-.CardInicial{
-  align-items: center;
-  width: 100%;
-  
-}
 
 .Card {
   background-color: brown;
@@ -12,13 +7,13 @@
   margin: 10px;
   max-width: 300px;
   min-height: 300px;
+ 
   
   
 }
 
 .Card .Title {
   padding: 10px 0px;
-  display: flex;
   justify-content: center;
 }
 

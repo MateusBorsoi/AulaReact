@@ -1,25 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
-.texto {
-    background-color: black;
-    color: white;
-    text-align: center;
-    border: 2px solid blue;
-}
-
-.principal {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    border:none;
-    background: linear-gradient(black, rgb(4, 133, 238));
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    
-}
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 body {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
 }
 

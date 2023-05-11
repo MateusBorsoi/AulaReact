@@ -7,9 +7,11 @@ export default function Card(props) {
   };
 
   return (
-    <div className="Card" style={cardStyles}>
-      <div className="Title">{props.titulo}</div>
-      <div className="Content">{props.children}</div>
+    <div>
+      <div className="Card" style={cardStyles}>
+        <div className="Title">{props.titulo}</div>
+        <div className="Content">{props.children}</div>
+      </div>
     </div>
   );
 }

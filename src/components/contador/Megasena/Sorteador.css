@@ -8,6 +8,19 @@
     background-color: #D9E1E6;
     border: 1px solid black;
     border-radius:1em;
-    width: 215px;
+    width: 225px;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 3%;
 
+}
+
+.input{
+    width: 100px;
+}
+
+.alert {
+    max-width: 200px;
+    margin-top: 10px;
+    text-align: center;
 }
